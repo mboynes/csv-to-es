@@ -1,0 +1,20 @@
+{
+  "name": "csv-to-es",
+  "version": "0.1.0",
+  "description": "Post CSV data to Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "elasticsearch",
+    "kibana"
+  ],
+  "author": "Matthew Boynes",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "node-fetch": "^2.6.1"
+  }
+}
